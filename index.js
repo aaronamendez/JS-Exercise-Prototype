@@ -103,10 +103,14 @@ Baby.prototype.play = function () {
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+
+  1. Window Binding - not something we want to use ever. It will return the global object of window.
+
+  2. Implicit Binding - Most common, refers to the whatever is within the object.
+
+  3. Explicit Binding - When we explicitly pass in as an arguement what we want "this" to refer to.
+
+  4. New Binding - Used with constructor functions when we want to add an additional construct to other objects.
 */
 
 ///////// END OF CHALLENGE /////////
